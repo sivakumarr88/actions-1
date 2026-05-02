@@ -8,6 +8,8 @@ jobs:
         steps:
             - name: Welcome message
               run: echo "Hello, World!"
+            - name: Checkout code
+              uses: actions/checkout@v2
             - name: List files
               run: ls -la
             - name: Read file
