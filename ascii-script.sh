@@ -8,4 +8,4 @@ grep -i "dragon" dragon.txt
 
 cat dragon.txt
 
-ls-la
+ls -la
