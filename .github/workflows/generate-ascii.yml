@@ -23,7 +23,7 @@ jobs:
         needs: cowsay-job-1
         steps:
             - name: Download the generated file artifact
-              uses: actions/download-artifact@v6
+              uses: actions/download-artifact@v7
               with:
                 name: dragon-artwork-file
             
@@ -35,7 +35,7 @@ jobs:
         needs: test-job-2
         steps:
             - name: download generated file artwork
-              uses: actions/download-artwork@v6
+              uses: actions/download-artifact@v7
               with:
                 name: dragon-artwork-file
         
